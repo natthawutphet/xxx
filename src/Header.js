@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-function Header() {
+class Header extends Component {
+  Header() {
+   
+   
+  }
 
-  return (
+  render() {
+    return (
     <>
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -25,14 +30,15 @@ function Header() {
 
 
 
-        <div class="cotainer">
+        <div class="container">
+
             <div class="img text-center mx-auto">
             
-           <div id="btn">
+            <a href="https://ppphone88.com/diver">
           <p id="img_a" ><img src="img/1.png" width="100%" alt=""/></p> 
           <p id="img_b" > <img src="img/2.png" width="100%" alt=""/></p> 
            <p id="img_c" > <img src="img/3.png" width="100%" alt=""/></p> 
-           </div>
+           </a>
 
 
             </div>
@@ -40,6 +46,7 @@ function Header() {
       </header>
       
     </>
-  )
+   );
+  }
 }
-export default Header
+export default Header;
