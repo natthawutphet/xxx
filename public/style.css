@@ -1,0 +1,27 @@
+body {
+    position: relative;
+}
+video {
+
+width: 100%;
+position: absolute;
+z-index: -10;
+}
+
+
+
+
+
+section {
+background-color: rgb(79, 255, 158);
+}
+footer {
+    background-color: rgb(172, 172, 172);
+    height: 80px;
+}
+
+
+header {
+    background-attachment: fixed;
+    background: url("img/bg.gif");
+}
